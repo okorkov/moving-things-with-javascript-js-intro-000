@@ -6,7 +6,7 @@ function moveDodgerLeft() {
   var left = parseInt(leftNumbers, 10)
  
   if (left > 0) {
-    dodger.style.left = `${left - 10}px`
+    dodger.style.left = `${left - 25}px`
   }
 }
 function moveDodgerRight() {
@@ -14,7 +14,7 @@ function moveDodgerRight() {
   var right = parseInt(rightNumbers, 10)
  
   if (right > 0) {
-    dodger.style.left = `${right + 10}px`
+    dodger.style.left = `${right + 25}px`
   }
 }
 function moveDodgerUp() {
@@ -22,7 +22,7 @@ function moveDodgerUp() {
   var up = parseInt(upNumbers, 10)
  
   if (up >= 0) {
-    dodger.style.bottom = `${up + 15}px`
+    dodger.style.bottom = `${up + 25}px`
   }
 }
 function moveDodgerDown() {
@@ -30,7 +30,7 @@ function moveDodgerDown() {
   var down = parseInt(downNumbers, 10)
  
   if (down > 0) {
-    dodger.style.bottom = `${down - 15}px`
+    dodger.style.bottom = `${down - 25}px`
   }
 }
 
