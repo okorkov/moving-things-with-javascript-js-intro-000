@@ -17,6 +17,14 @@ function moveDodgerRight() {
     dodger.style.left = `${right + 1}px`
   }
 }
+function moveDodgerUp() {
+  var upNumbers = dodger.style.bottom.replace('px', '')
+  var up = parseInt(upNumbers, 10)
+ 
+  if (up > 0) {
+    dodger.style.bottom = `${up + 1}px`
+  }
+}
 
 document.addEventListener('keydown', function(e) {
   if (e.which === 37) {
